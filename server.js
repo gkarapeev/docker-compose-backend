@@ -10,7 +10,7 @@ const corsOptions = {
 app.use(cors(corsOptions));
 
 app.get('/api/hello', (req, res) => {
-	res.json({ message: 'Hello, World!' });
+	res.json({ message: 'Hello, World test!' });
 });
 
 app.listen(3000, () => {
